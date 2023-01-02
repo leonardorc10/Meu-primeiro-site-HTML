@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color:rgb(93, 105, 101);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(147, 197, 197);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(36, 111, 172);
+    min-height: 150px;
+}
+table thead th {
+    background-color: black;
+    color: rgb(211, 27, 27);
+    border: SOLID 1PX black; 
+}
+table {
+    border: solid 1px black;
+}
+table tbody tr:hover {
+    background-color: lightgrey;    
+}
+table tbody tr:nth-child(even)td {
+    background-color: #ca1a1a;
+}
+table{
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24); 
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+}
+    </style>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="Página Inicial2.html">Página inicial</a></li>
+                <li><a href="Sobre a clinica.html">Sobre a clínica</a></li>
+                <li><a href="Horário de Atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+             <img src="horario.png"  width="1000" height="300" alt="">
+            </div>
+    
+            <div class="content">
+                <h4>Abaixo teremos uma tabela com o valor dos exames:</h4>
+            <thead>
+                <table border="1" summary="TABELA DE PREÇOS DOS EXAMES" align="CENTER">
+                    <tr>
+                        <th title="Exames disponíveis">Exames</th>
+                        <th>Preços</th>
+                        <th>Dias da Semana</th>
+                    </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>Raio X</td>
+                        <td>R$ 100,00</td>
+                        <td>Segunda a Sexta</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ácido úrico</td>
+                        <td>R$ 150,00</td>
+                        <td>Segunda a Sexta</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ultrassom</td>
+                        <td>R$ 360,00</td>
+                        <td>Segunda a Sexta</td>
+                    </tr>
+                    <tr>
+                        <td>Ressonância Magnética</td>
+                        <td>R$ 800,00</td>
+                        <td>Segunda a Sexta</td>
+                    </tr>
+                    <tr>
+                        <td>Tomografia</td>
+                        <td>R$ 300,00</td>
+                        <td>Segunda a Sexta</td>
+                    </tr>
+                    <tr>
+                        <td>Biópsias</td>
+                        <td>R$ 90,00</td>
+                        <td>Segunda a Sexta</td>
+                    </tr>
+            </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+
+            </div>
+    
+            <div class="footer">
+                <p>Clínica viver bem   2023 TODOS OS DIREITOS RESERVADOS</p>
+               <p>Telefone: 3003-3030</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
